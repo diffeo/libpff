@@ -102,9 +102,8 @@ PyObject *pypff_message_get_number_of_attachments(
            pypff_item_t *pypff_item,
            PyObject *arguments );
 
-/* TODO create attachment item
 PyObject *pypff_message_get_attachment_by_index(
-           pypff_item_t *pypff_item,
+           PyObject *pypff_item,
            int attachment_index );
 
 PyObject *pypff_message_get_attachment(
@@ -115,7 +114,6 @@ PyObject *pypff_message_get_attachment(
 PyObject *pypff_message_get_attachments(
            pypff_item_t *pypff_item,
            PyObject *arguments );
-*/
 
 #if defined( __cplusplus )
 }

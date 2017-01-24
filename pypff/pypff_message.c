@@ -1771,7 +1771,7 @@ PyObject *pypff_message_get_attachment_by_index(
 		goto on_error;
 	}
 	sub_item_object = pypff_item_new(
-	                   &pypff_message_type_object,
+	                   &pypff_attachment_type_object,
 	                   sub_item,
 	                   (PyObject *) ( (pypff_item_t *) pypff_item )->parent_object );
 
